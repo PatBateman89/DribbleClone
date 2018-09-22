@@ -10,8 +10,17 @@
 	border-radius: 2px;
 	padding: 10px;
 	background: white;
+
+.img_preview {
+	width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 }
 .shots {
+
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-gap: 1rem;
@@ -36,6 +45,7 @@
 	position: relative;
 	display: block;
 	color: #333 !important;
+
 
 	.shot-data {
 		display: none;
